@@ -16,7 +16,7 @@ jobs:
             - name: Tailscale
               uses: tailscale/github-action@v2
               with:
-                  authkey: tskey-auth-k4nWstLfac11CNTRL-5tYL5YR8T3F8q6vezwbM3FyxfhN98CKae
+                  authkey: "tskey-auth-k4nWstLfac11CNTRL-5tYL5YR8T3F8q6vezwbM3FyxfhN98CKae"
                   statedir: /tmp/tailscale-state/
 
             - name: node
