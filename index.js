@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
     res.end("hi mom");
 });
 
-server.listen(80, () => {
-    console.log(`Server running on port 80`);
+server.listen(9874, () => {
+    console.log(`Server running on port 9874`);
 });
